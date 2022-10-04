@@ -1,1 +1,64 @@
-/* Desenvolva sua estilização aqui ... */
+header {
+    border-bottom: 1px solid var(--color-grey-0);
+}
+
+.page-name {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--font-1);
+}
+
+h2 {
+    color: var(--color-grey-1);
+    font-weight: 600;
+    font-size: var(--font-2);
+}
+
+.header-page {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main-container {
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.genre-container {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.genre-list {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.title-price {
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.range-value {
+    color: var(--color-grey-2);
+    font-weight: 500;
+    font-size: var(--font-2);
+}
+
+.cards-container {
+    flex-direction: column;
+    gap: 10px;
+}
+
+#price-value {
+    width: 100%;
+}
+
+.albums-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
