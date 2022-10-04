@@ -70,8 +70,15 @@ function cardTemplate(item) {
 
 function filterList(list) {
 
-    let genreButtons = document.querySelectorAll(".music-genre")
     let rangeInput = document.getElementById("price-value")
+    let genreButtons = document.querySelectorAll(".music-genre")
+
+    rangeInput.addEventListener("click", () => {
+
+        let listRangeFilter = list.filter((product) => rangeInput.value >= product.price)
+
+        showCards(listRangeFilter)
+    })
 
     genreButtons.forEach((itemButton) => {
 
@@ -79,7 +86,7 @@ function filterList(list) {
 
             let itemCategory = itemButton.innerText
 
-            let listFilter = list.filter((product) => product.category.includes(itemCategory) && Number(rangeInput.value) >= product.price)
+            let listFilter = list.filter((product) => product.category.includes(itemCategory))
 
             showCards(listFilter)
         })
