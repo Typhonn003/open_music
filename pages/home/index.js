@@ -73,7 +73,7 @@ function filterList(list) {
     let rangeInput = document.getElementById("price-value")
     let genreButtons = document.querySelectorAll(".music-genre")
 
-    rangeInput.addEventListener("click", () => {
+    rangeInput.addEventListener("input", () => {
 
         let listRangeFilter = list.filter((product) => rangeInput.value >= product.price)
 
