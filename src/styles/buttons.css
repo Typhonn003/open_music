@@ -1,0 +1,41 @@
+.music-genre {
+  background-color: var(--color-grey-8);
+  color: var(--color-grey-2);
+  padding: 6px 10px;
+  border-radius: var(--radius-1);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: var(--font-3);
+}
+
+.music-genre:hover {
+  background-color: var(--color-grey-2);
+  color: var(--color-grey-8);
+}
+
+.button-mode {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-grey-8);
+}
+
+.buy-button {
+  padding: 4px 10px;
+  background-color: var(--color-grey-7);
+  border: none;
+  border-radius: var(--radius-1);
+  font-weight: 500;
+  font-size: var(--font-3);
+  color: var(--color-grey-2);
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: var(--color-grey-2);
+  color: var(--color-grey-7);
+}

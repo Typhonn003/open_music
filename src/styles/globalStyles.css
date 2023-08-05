@@ -24,13 +24,13 @@
   --color-actived-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
 
-  --font-1: 1.75rem; /* 28px */
-  --font-2: 1rem; /* 16px */
-  --font-3: 0.875rem; /* 14px */
-  --font-4: 0.75rem; /* 12px */
+  --font-1: 1.75rem;
+  --font-2: 1rem;
+  --font-3: 0.875rem;
+  --font-4: 0.75rem;
 
-  --radius-1: 0.25rem; /* 4px */
-  --container: 45rem; /* 720px */
+  --radius-1: 0.25rem;
+  --container: 45rem;
 }
 
 .dark-mode:root {
